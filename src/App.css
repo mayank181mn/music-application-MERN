@@ -1,0 +1,110 @@
+
+
+
+/* .name{
+ 
+  display:flex;
+  background-color:#FFC107;
+  height:100px;
+ 
+  align-items:center;
+
+
+  font-size: 70px;
+  color:#086788;
+  border: thick double #086788;
+  
+} */
+/* .login{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left:650px; }*/
+
+
+
+.logoanimation{
+  animation-name:logo;
+  animation-duration:400ms;
+  animation-delay:1ms;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  font-size: 50px;
+  margin:0px
+
+
+}
+@keyframes logo{
+  from{color:#086788;}
+  to{color:red;}
+  
+}
+.searchit{
+  margin-top:8px;
+}
+/* .whiteborder{
+  border:5px solid white;
+  border-radius: 10px;
+} */
+
+
+.container {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  background-color: hsl(41, 97%, 44%);
+  padding: 10px;
+}
+
+.beatbuddy {
+  font-size: 2.5rem;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons .btn {
+  margin-left: 10px;
+  padding: 5px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-buttons .btn:hover {
+  background-color: #0056b3;
+}
+.auth-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.login {
+  background-color: #28a745;
+}
+
+.signup {
+  background-color: #17a2b8;
+}
